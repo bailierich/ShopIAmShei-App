@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "ShopIAmShei-App",
-    "slug": "ShopIAmShei-App",
+    "slug": "shopiamshei-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f185fda3-f8e0-44a7-b3eb-aedaddf01a00"
+      }
+    },
+    "owner": "bailierich"
   }
 }
