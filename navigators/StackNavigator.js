@@ -18,7 +18,7 @@ const StackNavigator = () => {
         headerShown: false,
       }}
     >
-      <Stack.Screen component={ClientHomeScreen} name="Sign Up Screen" />
+      <Stack.Screen component={BookingScreen} name="Sign Up Screen" />
     </Stack.Navigator>
   );
 };
